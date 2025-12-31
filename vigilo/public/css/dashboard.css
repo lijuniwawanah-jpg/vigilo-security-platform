@@ -1,0 +1,37 @@
+/* Add to admin.css for user dashboard */
+.avatar.large {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+}
+
+.user-dashboard .stat-card {
+    color: white !important;
+}
+
+.user-dashboard .stat-card .stat-value,
+.user-dashboard .stat-card .stat-label,
+.user-dashboard .stat-card .stat-trend {
+    color: white !important;
+}
+
+.user-dashboard .stat-card .stat-trend i {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .quick-actions {
+        grid-template-columns: 1fr;
+    }
+    
+    .welcome-banner .d-flex {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .user-role-badge {
+        margin: 10px 0 0 0;
+    }
+}
